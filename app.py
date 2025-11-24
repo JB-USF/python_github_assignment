@@ -1,0 +1,1 @@
+total_hours = input("Enter total hours studied: ")
