@@ -3,3 +3,7 @@ first_score = input("Enter first test score: ")
 second_score = input("Enter second test score: ")
 total_hours = float(total_hours)
 daily_hours = total_hours / 7
+first_score = float(first_score)
+second_score = float(second_score)
+score_change = second_score - first_score
+hour_to_score_ratio = score_change / total_hours
