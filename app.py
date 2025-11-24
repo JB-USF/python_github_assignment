@@ -7,3 +7,5 @@ first_score = float(first_score)
 second_score = float(second_score)
 score_change = second_score - first_score
 hour_to_score_ratio = score_change / total_hours
+print("Average daily study hours:", daily_hours)
+print("Score change per hour studied:", hour_to_score_ratio)
